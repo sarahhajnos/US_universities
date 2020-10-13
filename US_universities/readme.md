@@ -2,8 +2,8 @@
   	│index.html
     │readme.md
     ├─assets
-    │      [us_colleges].geojson
-    │      [us_urbanareas].geojson
+    │      [nc_colleges].geojson
+    │      [test3].geojson
 
 For lab 3, I mapped the higher education schools in North Carolina per county. The schools dataset contained point data. Schools were categorized as: colleges, universities, and professional schools; technical and trade schools; and others. This data was from USGS, Science Base Catalog. I took this data and filtered it for higher education schools in NC, using select by attributes in QGIS (I later realized I could have found the same data from NC One Map). Then I found a shapefile of NC counties from NC One Map. I combined the two datasets in QGIS and then used the number of points calculator. I then exported this file in order to have the 'NUMPOINTS' attribute to count the number of schools per county.
 
